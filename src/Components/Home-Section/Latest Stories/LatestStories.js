@@ -16,7 +16,7 @@ const LatestStories = () => {
             <hr className='mainCategoryHr' />
             <hr />
             <div className='TheLatestBox'>
-                {data.filter((value) => (load ? (value.ID === 3) : (value.ID <= 4)) && (value.Category === "Food" || value.Category === "Fitness" || value.Category === "Hollywood")).map((val) => (
+                {data.filter((value) => (load ? (value.ID === '3') : (value.ID <= '4')) && (value.Category === "Food" || value.Category === "Fitness" || value.Category === "Hollywood")).map((val) => (
                     <>
                         <Link to={`/article/${val.Category}/${val.ID}`} className='TheLatestStories'>
                             <p className='title'>{val.Title}</p>

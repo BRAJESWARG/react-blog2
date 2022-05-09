@@ -6,7 +6,7 @@ export const ArrayofBlogs = createContext()
 export const DataBase = props => {
     const [data] = useState([
             {
-                ID : 1,
+                ID : '1',
                 Author : "Brajeswar Ghosh",
                 Title : "Alia Bhatt and Ranbir Kapoor are married.",
                 Image : "https://images.hindustantimes.com/img/2022/04/14/550x309/Ranlia_1649944945023_1649944962524.jpeg",
@@ -17,7 +17,7 @@ export const DataBase = props => {
                 readtime: "2 mins read"
             },
             {
-                ID : 2,
+                ID : '2',
                 Author : "News 18",
                 Image : "https://weraveyou.com/wp-content/uploads/2021/03/apps.53280.13756631990520576.c7bf8936-a11d-4c89-b498-2442c2977baf.png",
                 Title : "Amazon Music Crosses 55 Million Global Subscriptions, Closes In on Apple Music",
@@ -28,7 +28,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 3,
+                ID : '3',
                 Author : "Hindustan Times",
                 Image : "https://static.toiimg.com/photo/89414066.jpeg",
                 Title : "Alia Bhatt's Gangubai Kathiawadi is top non-English film on Netflix worldwide",
@@ -39,7 +39,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 4,
+                ID : '4',
                 Author : "ETIMES",
                 Image : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1KEAH64-u5MXX8-LW5FMKfPOGYKLoRn442hpjFQAJeQHb6a4ibyNGTTpeNTFMHNDGGvtMugRIU38u-qIisoDEggtU5aKO6uHidPU9EE7ZsQcv0JI3mAC5N7hgpw0iqk1bctsXQ5Ka6pi1-hEk-_YRIYX_ERP5YiXYPYdLV8AX_ME9j65SkLqHDGn6/s900/KGF-2-Movie-6.jpg",
                 Title : "‘KGF 2’ Hindi beats lifetime collection of Aamir Khan's ‘Dangal’ with its humongous total of Rs 381 crore",
@@ -50,7 +50,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 5,
+                ID : '5',
                 Author : "Hungama Music",
                 Image : "https://stat1.bollywoodhungama.in/wp-content/uploads/2021/11/Sooryavanshi-17-1.jpg",
                 Title : "Sooryavanshi becomes Akshay Kumar’s 3rd highest all time second weekend grosser",
@@ -61,7 +61,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 6,
+                ID : '6',
                 Author : "Brajeswar Ghosh",
                 Title : "Alia Bhatt and Ranbir Kapoor are married.",
                 Image : "https://images.hindustantimes.com/img/2022/04/14/550x309/Ranlia_1649944945023_1649944962524.jpeg",
@@ -72,7 +72,7 @@ export const DataBase = props => {
                 readtime: "2 mins read"
             },
             {
-                ID : 7,
+                ID : '7',
                 Author : "News 18",
                 Image : "https://weraveyou.com/wp-content/uploads/2021/03/apps.53280.13756631990520576.c7bf8936-a11d-4c89-b498-2442c2977baf.png",
                 Title : "Amazon Music Crosses 55 Million Global Subscriptions, Closes In on Apple Music",
@@ -83,7 +83,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 8,
+                ID : '8',
                 Author : "Hindustan Times",
                 Image : "https://static.toiimg.com/photo/89414066.jpeg",
                 Title : "Alia Bhatt's Gangubai Kathiawadi is top non-English film on Netflix worldwide",
@@ -94,7 +94,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 9,
+                ID : '9',
                 Author : "ETIMES",
                 Image : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1KEAH64-u5MXX8-LW5FMKfPOGYKLoRn442hpjFQAJeQHb6a4ibyNGTTpeNTFMHNDGGvtMugRIU38u-qIisoDEggtU5aKO6uHidPU9EE7ZsQcv0JI3mAC5N7hgpw0iqk1bctsXQ5Ka6pi1-hEk-_YRIYX_ERP5YiXYPYdLV8AX_ME9j65SkLqHDGn6/s900/KGF-2-Movie-6.jpg",
                 Title : "‘KGF 2’ Hindi beats lifetime collection of Aamir Khan's ‘Dangal’ with its humongous total of Rs 381 crore",
@@ -105,7 +105,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 10,
+                ID : '10',
                 Author : "Hungama Music",
                 Image : "https://stat1.bollywoodhungama.in/wp-content/uploads/2021/11/Sooryavanshi-17-1.jpg",
                 Title : "Sooryavanshi becomes Akshay Kumar’s 3rd highest all time second weekend grosser",
@@ -119,7 +119,7 @@ export const DataBase = props => {
 
 
             {
-                ID : 1,
+                ID : '1',
                 Author : "THE IRISH TIMES",
                 Image : "https://www.irishtimes.com/polopoly_fs/1.4868458.1651654217!/image/image.jpg_gen/derivatives/landscape_620/image.jpg",
                 Title : "The Enabot Ebo Air robot can entertain and provide security, but it’s not essential",
@@ -130,7 +130,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 2,
+                ID : '2',
                 Author : "THE TIMES OF INDIA",
                 Image : "https://bsmedia.business-standard.com/_media/bs/img/article/2022-03/21/full/1647884528-055.jpg",
                 Title : "LIC IPO",
@@ -141,7 +141,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 3,
+                ID : '3',
                 Author : "THE IRISH TIMES",
                 Image : "https://www.irishtimes.com/polopoly_fs/1.4868458.1651654217!/image/image.jpg_gen/derivatives/landscape_620/image.jpg",
                 Title : "The Enabot Ebo Air robot can entertain and provide security, but it’s not essential",
@@ -152,7 +152,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 4,
+                ID : '4',
                 Author : "Local News",
                 Image : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202111/crypto_0_1200x768.jpeg?ARzhHNDhzEZFvnu5WhxQzN1ByhyorYwm&size=770:433",
                 Title : "Crypto can't be stopped, there's need for regulation",
@@ -163,7 +163,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 5,
+                ID : '5',
                 Author : "THE TIMES OF INDIA",
                 Image : "https://erepublic.brightspotcdn.com/dims4/default/996d2ba/2147483647/strip/false/crop/7669x4314+0+0/resize/1486x836!/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.amazonaws.com%2Fe5%2F43%2F0e5edf23414ca362efb8dac52c0b%2Fshutterstock-1183499047.jpg",
                 Title : "When will 5G services launch in India?",
@@ -174,7 +174,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 6,
+                ID : '6',
                 Author : "THE TIMES OF INDIA",
                 Image : "https://i0.wp.com/www.opindia.com/wp-content/uploads/2020/12/dak-pay-india-post-payment-bank-app.jpg?fit=1998%2C1140&ssl=1",
                 Title : "India is gearing up for a post-UPI digital payments revolution",
@@ -185,7 +185,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 7,
+                ID : '7',
                 Author : "THE IRISH TIMES",
                 Image : "https://www.irishtimes.com/polopoly_fs/1.4868458.1651654217!/image/image.jpg_gen/derivatives/landscape_620/image.jpg",
                 Title : "The Enabot Ebo Air robot can entertain and provide security, but it’s not essential",
@@ -196,7 +196,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 8,
+                ID : '8',
                 Author : "THE TIMES OF INDIA",
                 Image : "https://bsmedia.business-standard.com/_media/bs/img/article/2022-03/21/full/1647884528-055.jpg",
                 Title : "LIC IPO",
@@ -207,7 +207,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 9,
+                ID : '9',
                 Author : "THE IRISH TIMES",
                 Image : "https://www.irishtimes.com/polopoly_fs/1.4868458.1651654217!/image/image.jpg_gen/derivatives/landscape_620/image.jpg",
                 Title : "The Enabot Ebo Air robot can entertain and provide security, but it’s not essential",
@@ -218,7 +218,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 10,
+                ID : '10',
                 Author : "Local News",
                 Image : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202111/crypto_0_1200x768.jpeg?ARzhHNDhzEZFvnu5WhxQzN1ByhyorYwm&size=770:433",
                 Title : "Crypto can't be stopped, there's need for regulation",
@@ -229,7 +229,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 11,
+                ID : '11',
                 Author : "THE TIMES OF INDIA",
                 Image : "https://erepublic.brightspotcdn.com/dims4/default/996d2ba/2147483647/strip/false/crop/7669x4314+0+0/resize/1486x836!/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.amazonaws.com%2Fe5%2F43%2F0e5edf23414ca362efb8dac52c0b%2Fshutterstock-1183499047.jpg",
                 Title : "When will 5G services launch in India?",
@@ -240,7 +240,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 12,
+                ID : '12',
                 Author : "THE TIMES OF INDIA",
                 Image : "https://i0.wp.com/www.opindia.com/wp-content/uploads/2020/12/dak-pay-india-post-payment-bank-app.jpg?fit=1998%2C1140&ssl=1",
                 Title : "India is gearing up for a post-UPI digital payments revolution",
@@ -255,7 +255,7 @@ export const DataBase = props => {
 
             
             {
-                ID : 1,
+                ID : '1',
                 Author : "CINEMABLEND",
                 Image : "https://www.denofgeek.com/wp-content/uploads/2021/07/the-twilight-saga-movie-watch-order.jpeg?resize=768%2C432",
                 Title : "Twilight’s Kellan Lutz Recalls Working With Nikki Reed And Filming Their ‘Sensual’ Kissing Scene In Breaking Dawn",
@@ -266,7 +266,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 2,
+                ID : '2',
                 Author : "James Bond",
                 Image : "https://www.bollywoodhungama.com/wp-content/uploads/2021/09/No-Time-To-Die-to-be-the-FIRST-James-Bond-film-to-release-in-3D-expected-to-be-the-BIGGEST-Hollywood-release-post-pandemic-in-India.jpg",
                 Title : "No Time To Die Released",
@@ -277,7 +277,7 @@ export const DataBase = props => {
                 readtime: "10 mins read"
             },
             {
-                ID : 3,
+                ID : '3',
                 Author : "Marvel Studio",
                 Image : "https://i.ytimg.com/vi/1WfzGDKvwrw/maxresdefault.jpg",
                 Title : "Who are the Eternals?",
@@ -288,7 +288,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 4,
+                ID : '4',
                 Author : "Brajeswar Ghosh",
                 Image : "https://wiwibloggs.com/wp-content/uploads/2022/02/Cornelia-Jakobs-Hold-Me-Closer-Sweden-Eurovision-2022.jpg",
                 Title : "“I found the right one at the wrong time” — Cornelia Jakobs’ “Hold Me Closer” lyrics lament the turmoil of a breakup",
@@ -299,7 +299,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 5,
+                ID : '5',
                 Author : "CINEMABLEND",
                 Image : "https://www.denofgeek.com/wp-content/uploads/2021/07/the-twilight-saga-movie-watch-order.jpeg?resize=768%2C432",
                 Title : "Twilight’s Kellan Lutz Recalls Working With Nikki Reed And Filming Their ‘Sensual’ Kissing Scene In Breaking Dawn",
@@ -310,7 +310,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 6,
+                ID : '6',
                 Author : "RYAN NORTHRUP",
                 Image : "https://static2.srcdn.com/wordpress/wp-content/uploads/2021/01/Fast-and-Furious-9-Vin-Diesel-Muscles.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
                 Title : "How The Fast & Furious Franchise's Future Could Look Very Different",
@@ -321,7 +321,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 7,
+                ID : '7',
                 Author : "CINEMABLEND",
                 Image : "https://www.denofgeek.com/wp-content/uploads/2021/07/the-twilight-saga-movie-watch-order.jpeg?resize=768%2C432",
                 Title : "Twilight’s Kellan Lutz Recalls Working With Nikki Reed And Filming Their ‘Sensual’ Kissing Scene In Breaking Dawn",
@@ -332,7 +332,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 8,
+                ID : '8',
                 Author : "James Bond",
                 Image : "https://www.bollywoodhungama.com/wp-content/uploads/2021/09/No-Time-To-Die-to-be-the-FIRST-James-Bond-film-to-release-in-3D-expected-to-be-the-BIGGEST-Hollywood-release-post-pandemic-in-India.jpg",
                 Title : "No Time To Die Released",
@@ -343,7 +343,7 @@ export const DataBase = props => {
                 readtime: "10 mins read"
             },
             {
-                ID : 9,
+                ID : '9',
                 Author : "Marvel Studio",
                 Image : "https://i.ytimg.com/vi/1WfzGDKvwrw/maxresdefault.jpg",
                 Title : "Who are the Eternals?",
@@ -354,7 +354,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 10,
+                ID : '10',
                 Author : "Brajeswar Ghosh",
                 Image : "https://wiwibloggs.com/wp-content/uploads/2022/02/Cornelia-Jakobs-Hold-Me-Closer-Sweden-Eurovision-2022.jpg",
                 Title : "“I found the right one at the wrong time” — Cornelia Jakobs’ “Hold Me Closer” lyrics lament the turmoil of a breakup",
@@ -365,7 +365,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 11,
+                ID : '11',
                 Author : "CINEMABLEND",
                 Image : "https://www.denofgeek.com/wp-content/uploads/2021/07/the-twilight-saga-movie-watch-order.jpeg?resize=768%2C432",
                 Title : "Twilight’s Kellan Lutz Recalls Working With Nikki Reed And Filming Their ‘Sensual’ Kissing Scene In Breaking Dawn",
@@ -376,7 +376,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 12,
+                ID : '12',
                 Author : "RYAN NORTHRUP",
                 Image : "https://static2.srcdn.com/wordpress/wp-content/uploads/2021/01/Fast-and-Furious-9-Vin-Diesel-Muscles.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
                 Title : "How The Fast & Furious Franchise's Future Could Look Very Different",
@@ -392,7 +392,7 @@ export const DataBase = props => {
 
             
             {
-                ID : 1,
+                ID : '1',
                 Author : "Brajeswar Ghosh",
                 Image : "https://post.healthline.com/wp-content/uploads/2020/01/Runner-training-on-running-track-732x549-thumbnail.jpg",
                 Title : "Running",
@@ -403,7 +403,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 2,
+                ID : '2',
                 Author : "Brajeswar Ghosh",
                 Image : "https://media.gettyimages.com/photos/male-gymnast-doing-handstand-on-pommel-horse-picture-id532416167?s=612x612",
                 Title : "Gymnastics",
@@ -414,7 +414,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 3,
+                ID : '3',
                 Author : "Brajeswar Ghosh",
                 Image : "https://cdn.mos.cms.futurecdn.net/foejuANBeiCtYkT6PaXW9F-1200-80.jpg",
                 Title : "Cycling",
@@ -425,7 +425,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 4,
+                ID : '4',
                 Author : "Brajeswar Ghosh",
                 Image : "https://post.healthline.com/wp-content/uploads/2020/01/Runner-training-on-running-track-732x549-thumbnail.jpg",
                 Title : "Running",
@@ -436,7 +436,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 5,
+                ID : '5',
                 Author : "Brajeswar Ghosh",
                 Image : "https://static01.nyt.com/images/2016/12/02/well/move/yoga_body_images-slide-NY4R/yoga_body_images-slide-NY4R-superJumbo.jpg",
                 Title : "Yoga",
@@ -447,7 +447,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 6,
+                ID : '6',
                 Author : "Brajeswar Ghosh",
                 Image : "https://image.shutterstock.com/image-photo/skateboarder-young-teenager-man-isolated-260nw-519472180.jpg",
                 Title : "Skateboarding",
@@ -458,7 +458,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 7,
+                ID : '7',
                 Author : "Brajeswar Ghosh",
                 Image : "https://post.healthline.com/wp-content/uploads/2020/01/Runner-training-on-running-track-732x549-thumbnail.jpg",
                 Title : "Running",
@@ -469,7 +469,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 8,
+                ID : '8',
                 Author : "Brajeswar Ghosh",
                 Image : "https://media.gettyimages.com/photos/male-gymnast-doing-handstand-on-pommel-horse-picture-id532416167?s=612x612",
                 Title : "Gymnastics",
@@ -480,7 +480,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 9,
+                ID : '9',
                 Author : "Brajeswar Ghosh",
                 Image : "https://cdn.mos.cms.futurecdn.net/foejuANBeiCtYkT6PaXW9F-1200-80.jpg",
                 Title : "Cycling",
@@ -491,7 +491,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 10,
+                ID : '10',
                 Author : "Brajeswar Ghosh",
                 Image : "https://post.healthline.com/wp-content/uploads/2020/01/Runner-training-on-running-track-732x549-thumbnail.jpg",
                 Title : "Running",
@@ -502,7 +502,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 11,
+                ID : '11',
                 Author : "Brajeswar Ghosh",
                 Image : "https://static01.nyt.com/images/2016/12/02/well/move/yoga_body_images-slide-NY4R/yoga_body_images-slide-NY4R-superJumbo.jpg",
                 Title : "Yoga",
@@ -513,7 +513,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 12,
+                ID : '12',
                 Author : "Brajeswar Ghosh",
                 Image : "https://image.shutterstock.com/image-photo/skateboarder-young-teenager-man-isolated-260nw-519472180.jpg",
                 Title : "Skateboarding",
@@ -528,7 +528,7 @@ export const DataBase = props => {
 
 
             {
-                ID : 1,
+                ID : '1',
                 Author : "Delish",
                 Image : "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/dqptuh4dfasrbggsbvss",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -539,7 +539,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 2,
+                ID : '2',
                 Author : "Delish",
                 Image : "https://static.toiimg.com/photo/msid-77563051/77563051.jpg?471818",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -550,7 +550,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 3,
+                ID : '3',
                 Author : "Delish",
                 Image : "https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/shutterstock_4148348021.jpg",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -561,7 +561,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 4,
+                ID : '4',
                 Author : "Delish",
                 Image : "https://www.phillymag.com/wp-content/uploads/sites/3/2019/02/best-indian-restaurant-philadelphia.jpg",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -572,7 +572,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 5,
+                ID : '5',
                 Author : "Delish",
                 Image : "https://media.istockphoto.com/photos/hands-of-cook-photographing-mexican-tacos-picture-id1241881284?k=20&m=1241881284&s=170667a&w=0&h=ffaDRwD-w86TgaUuIieNFQTkSj5G-OtnRvuwcN3kguY=",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -583,7 +583,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 6,
+                ID : '6',
                 Author : "Delish",
                 Image : "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/dqptuh4dfasrbggsbvss",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -594,7 +594,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 7,
+                ID : '7',
                 Author : "Delish",
                 Image : "https://static.toiimg.com/photo/msid-77563051/77563051.jpg?471818",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -605,7 +605,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 8,
+                ID : '8',
                 Author : "Delish",
                 Image : "https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/shutterstock_4148348021.jpg",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -616,7 +616,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 9,
+                ID : '9',
                 Author : "Delish",
                 Image : "https://www.phillymag.com/wp-content/uploads/sites/3/2019/02/best-indian-restaurant-philadelphia.jpg",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -627,7 +627,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 10,
+                ID : '10',
                 Author : "Delish",
                 Image : "https://media.istockphoto.com/photos/hands-of-cook-photographing-mexican-tacos-picture-id1241881284?k=20&m=1241881284&s=170667a&w=0&h=ffaDRwD-w86TgaUuIieNFQTkSj5G-OtnRvuwcN3kguY=",
                 Title : "Food bloggers in city creating buzz on social media",
@@ -641,7 +641,7 @@ export const DataBase = props => {
             
             
             {
-                ID : 1,
+                ID : '1',
                 Author : "Brajeswar Ghosh",
                 Image : "https://lp-cms-production.imgix.net/2021-07/GettyRF_582021521.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
                 Title : "Rome : City of Seven Hills",
@@ -652,7 +652,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 2,
+                ID : '2',
                 Author : "Brajeswar Ghosh",
                 Image : "https://www.raconteur.net/wp-content/uploads/2016/11/India-smart-cities-1280x720.jpg",
                 Title : "EARNING ABROAD: CANYON GUIDING IN INDIA",
@@ -663,7 +663,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 3,
+                ID : '3',
                 Author : "NDTV",
                 Image : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=1200&h=-1&s=1",
                 Title : "Amber Palace Kolkata",
@@ -674,7 +674,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 4,
+                ID : '4',
                 Author : "NDTV",
                 Image : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/08/05/989093-hawa-mahal-windy.jpg",
                 Title : "Hawa Mahal Jaipur",
@@ -685,7 +685,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 5,
+                ID : '5',
                 Author : "NDTV",
                 Image : "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/08/%E0%A4%86%E0%A4%97%E0%A4%B0%E0%A4%BE-%E0%A4%95%E0%A4%BE-%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A4%BE.jpg",
                 Title : "Agra Fort",
@@ -696,7 +696,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 6,
+                ID : '6',
                 Author : "Brajeswar Ghosh",
                 Image : "https://lp-cms-production.imgix.net/2021-07/GettyRF_582021521.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850",
                 Title : "Rome : City of Seven Hills",
@@ -707,7 +707,7 @@ export const DataBase = props => {
                 readtime: "5 mins read"
             },
             {
-                ID : 7,
+                ID : '7',
                 Author : "Brajeswar Ghosh",
                 Image : "https://www.raconteur.net/wp-content/uploads/2016/11/India-smart-cities-1280x720.jpg",
                 Title : "EARNING ABROAD: CANYON GUIDING IN INDIA",
@@ -718,7 +718,7 @@ export const DataBase = props => {
                 readtime: "4 mins read"
             },
             {
-                ID : 8,
+                ID : '8',
                 Author : "NDTV",
                 Image : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=1200&h=-1&s=1",
                 Title : "Amber Palace Kolkata",
@@ -729,7 +729,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 9,
+                ID : '9',
                 Author : "NDTV",
                 Image : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/08/05/989093-hawa-mahal-windy.jpg",
                 Title : "Hawa Mahal Jaipur",
@@ -740,7 +740,7 @@ export const DataBase = props => {
                 readtime: "6 mins read"
             },
             {
-                ID : 10,
+                ID : '10',
                 Author : "NDTV",
                 Image : "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/08/%E0%A4%86%E0%A4%97%E0%A4%B0%E0%A4%BE-%E0%A4%95%E0%A4%BE-%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A4%BE.jpg",
                 Title : "Agra Fort",

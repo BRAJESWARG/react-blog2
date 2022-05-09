@@ -14,7 +14,7 @@ const MoreFromSiren = () => {
             <hr />
 
             <div className='TheLatestBox'>
-                {data.filter((value) => (value.ID === 2) && (value.Category === "Bollywood" || value.Category === "Fitness" || value.Category === "Hollywood")).map((val) => (
+                {data.filter((value) => (value.ID === '2') && (value.Category === "Bollywood" || value.Category === "Fitness" || value.Category === "Hollywood")).map((val) => (
 
                     <Link to={`/article/${val.Category}/${val.ID}`} className='TheLatestContent'>
                         <p className='body'>Related reads</p>

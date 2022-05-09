@@ -15,7 +15,7 @@ const TopPostHome = () => {
             <hr className='mainCategoryHr' />
             <div>
 
-                {data.filter((value) => value.ID === 1 && value.Category === "Bollywood").map((val) => (
+                {data.filter((value) => value.ID === '1' && value.Category === "Bollywood").map((val) => (
                     <div>
                         <Link to={`/article/${val.Category}/${val.ID}`}>
 
@@ -35,7 +35,7 @@ const TopPostHome = () => {
                 ))}
 
 
-                {data.filter((value) => ((value.ID === 2 && value.Category === "Technology") || (value.ID === 3 && value.Category === "Hollywood") ||  (value.ID === 4 && value.Category === "Food"))).map((val) => (
+                {data.filter((value) => ((value.ID === '2' && value.Category === "Technology") || (value.ID === '3' && value.Category === "Hollywood") ||  (value.ID === '4' && value.Category === "Food"))).map((val) => (
                     <div>
                         <Link to={`/article/${val.Category}/${val.ID}`}>
 

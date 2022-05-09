@@ -21,7 +21,7 @@ const AllCategory = () => {
                 <p className='mainCategory'>{cat}</p>
                 <hr className='mainCategoryHr' />
 
-                {data.filter((value) => (load ? (value.ID <= 6) : (value.ID <= 8)) && value.Category === cat).map((val) => (
+                {data.filter((value) => (load ? (value.ID <= '6') : (value.ID <= '8')) && value.Category === cat).map((val) => (
 
                     <div>
                         <Link to={`/article/${val.Category}/${val.ID}`}>

@@ -16,7 +16,7 @@ const TopPost = () => {
             <hr className='mainCategoryHr' />
             <div>
 
-                {data.filter((value) => value.ID === 1 && value.Category === cat).map((val) => (
+                {data.filter((value) => value.ID === '1' && value.Category === cat).map((val) => (
                     <div>
                         <Link to={`/article/${val.Category}/${val.ID}`}>
 
@@ -36,7 +36,7 @@ const TopPost = () => {
                 ))}
 
 
-                {data.filter((value) => value.ID >= 2 && value.ID <= 4 && value.Category === cat).map((val) => (
+                {data.filter((value) => value.ID >= '2' && value.ID <= '4' && value.Category === cat).map((val) => (
                     <div>
                         <Link to={`/article/${val.Category}/${val.ID}`}>
 

@@ -10,7 +10,7 @@ const Intro = () => {
 
         <div className='topHomeContainer'>
             <div className='topHomeContainer-1'>
-                {data.filter((value) => (value.ID === 4) && (value.Category === "Food")).map((val) => (
+                {data.filter((value) => (value.ID === '4') && (value.Category === "Food")).map((val) => (
 
                     <Link to={`/article/${val.Category}/${val.ID}`}>
                         <img src={val.Image} className='topHomeImg1' alt="" />
@@ -25,7 +25,7 @@ const Intro = () => {
 
 
             <div className='topHomeContainer-2'>
-                {data.filter((value) => (value.ID === 3) && (value.Category === "Technology" || value.Category === "Fitness")).map((val) => (
+                {data.filter((value) => (value.ID === '3') && (value.Category === "Technology" || value.Category === "Fitness")).map((val) => (
                     <div className='box'>
                         <Link to={`/article/${val.Category}/${val.ID}`}>
                             <img src={val.Image} className='topHomeImg2' alt='' />

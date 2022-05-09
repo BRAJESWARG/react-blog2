@@ -15,7 +15,7 @@ const Article = () => {
 
     return (
         <div>
-            {data.filter((value) => ((value.ID == Id) && (value.Category === cat))).map((val) => (
+            {data.filter((value) => ((value.ID === Id) && (value.Category === cat))).map((val) => (
                 <div className='articleContainer'>
                     <p className='articleTitle'>{val.Title}</p>
                     <div className='articleProfileBox'>

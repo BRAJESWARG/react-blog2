@@ -16,7 +16,7 @@ const LatestArticles = () => {
             <div className='blogBody'>
 
                 <div>
-                    {data.filter((value) => (load ? (value.ID <= 4) : (value.ID <= 6)) && value.Category === "Bollywood").map((val) => (
+                    {data.filter((value) => (load ? (value.ID <= '4') : (value.ID <= '6')) && value.Category === "Bollywood").map((val) => (
 
                         <div>
                             <Link to={`/article/${val.Category}/${val.ID}`}>

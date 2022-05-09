@@ -17,7 +17,7 @@ const NavComponent = () => {
       <div className='navContainer' >
         <Link to="/" className='NavCategory'>Home</Link>
 
-        {data.filter((value) => value.ID === 1).map((val) => (
+        {data.filter((value) => value.ID === '1').map((val) => (
 
           <Link to={`/category/${val.Category}`} className='NavCategory'>{val.Category}</Link>
 
